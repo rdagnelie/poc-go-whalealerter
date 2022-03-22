@@ -1,0 +1,24 @@
+# Goal
+
+Discover golang
+
+
+# What it does ?
+
+From a free account on https://whale-alert.io/ the app retrieve data and try to show you big transferts between exchange / and crypto assets.
+
+# Usage
+
+create a .env with following variables:
+DEBUG=false|true
+WHALEIO_TOKEN=the token retrieved from your free acount on whale-alert
+WHALEIO_SCOPE_CURRENCIES= the list of the currencies you want to follow
+```
+
+example:
+
+```
+DEBUG=false
+WHALEIO_TOKEN=ImTheToKeNFrOmMyAccOunTWHALEIO
+WHALEIO_SCOPE_CURRENCIES=BTC,ETH
+```
